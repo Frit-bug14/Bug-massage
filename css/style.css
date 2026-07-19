@@ -105,3 +105,46 @@ h1{
 }
 
 }
+
+/* Usa el mismo fondo que ya tienes en tu página principal */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background: url("img/fondo.jpg") center/cover no-repeat fixed;
+    min-height:100vh;
+}
+
+.piramide{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    padding:60px 20px;
+}
+
+.fila{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.caja{
+    width:180px;
+    height:120px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(8px);
+    border:2px solid rgba(255,255,255,.4);
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.caja:hover{
+    transform:translateY(-5px) scale(1.05);
+}
