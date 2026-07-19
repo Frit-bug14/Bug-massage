@@ -165,3 +165,12 @@ h1{
     text-decoration: none;
     color:#2E6B3F;
 }
+
+a.caja,
+a.caja:link,
+a.caja:visited,
+a.caja:hover,
+a.caja:active{
+    text-decoration: none;
+    color: #2E6B3F;
+}
